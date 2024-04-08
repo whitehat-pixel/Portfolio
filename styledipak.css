@@ -1,0 +1,135 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e85a5a;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #00bcd4;
+    color: #e67979;
+    padding: 20px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.about-section {
+    background-color: #4bc9df;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.about-content img {
+    max-width: 40%;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.skills-section {
+    background-color: #44fc44 ;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    background:#44fc44;
+}
+
+.skills-list li {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #f17979;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+.contact-section {
+    background-color: #98e356;
+}
+
+.contact-info {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-links li a {
+    color: #333;
+    text-decoration: none;
+    background-color: #e57a7a;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #00bcd4;
+    color: #ea6a6a;
+    text-align: center;
+    padding: 20px 0;
+}
+@media only screen and (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+    }
+    .about-content img {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    header nav ul li a {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        padding: 0 10px;
+    }
+}
